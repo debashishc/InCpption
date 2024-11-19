@@ -9,7 +9,8 @@
 #include <iostream>
 
 int main() {
-  uiuc::Cube c;  // !!!
+  // uiuc::Cube c;  // !!!
+  uiuc::Cube c(2);  // corrected to include argumane length
   std::cout << "Volume: " << c.getVolume() << std::endl;
   return 0;
 }
